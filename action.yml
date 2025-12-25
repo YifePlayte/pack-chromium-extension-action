@@ -1,5 +1,5 @@
-name: 'pack-chromium-extension'
-author: 'Emily McLean'
+name: 'pack-chromium-extension-fork'
+author: 'Emily McLean / Yife Playte'
 description: 'Generates a signed .crx file, ready for distribution.'
 inputs:
   input-folder:
@@ -10,7 +10,7 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/emilymclean/pack-chromium-extension-action:1.0.3'
+  image: 'docker://ghcr.io/YifePlayte/pack-chromium-extension-action:1.0.3'
   args:
     - ${{ inputs.input-folder }}
     - ${{ inputs.output-file }}
