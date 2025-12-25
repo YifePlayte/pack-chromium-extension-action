@@ -3,7 +3,7 @@
 echo "$EXTENSION_KEY" > /key.pem
 
 mkdir /extension
-cp /github/workspace/$1/* /extension/
+cp -r /github/workspace/$1/* /extension/
 
 chromium --no-sandbox --pack-extension=/extension --pack-extension-key=/key.pem
 
