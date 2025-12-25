@@ -10,7 +10,7 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/YifePlayte/pack-chromium-extension-action:1.0.3'
+  image: 'docker://ghcr.io/yifeplayte/pack-chromium-extension-action:0.1.0'
   args:
     - ${{ inputs.input-folder }}
     - ${{ inputs.output-file }}

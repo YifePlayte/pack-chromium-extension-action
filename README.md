@@ -12,7 +12,7 @@ Generates a signed .crx file, ready for distribution.
 
 ## Example usage
 ```
-uses: emilymclean/pack-chromium-extension-action@v1
+uses: YifePlayte/pack-chromium-extension-action@v0
 env:
   EXTENSION_KEY: $
 with:
