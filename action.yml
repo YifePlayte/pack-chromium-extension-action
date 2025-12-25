@@ -1,4 +1,4 @@
-name: 'pack-chromium-extension-fork'
+name: 'pack-chromium-extension-yifeplayte'
 author: 'Emily McLean / Yife Playte'
 description: 'Generates a signed .crx file, ready for distribution.'
 inputs:
