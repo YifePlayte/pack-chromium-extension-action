@@ -1,5 +1,5 @@
-name: 'pack-chromium-extension'
-author: 'Emily McLean'
+name: 'pack-chromium-extension-yifeplayte'
+author: 'Emily McLean / Yife Playte'
 description: 'Generates a signed .crx file, ready for distribution.'
 inputs:
   input-folder:
